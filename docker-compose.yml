@@ -45,8 +45,6 @@ services:
     volumes:
       - netdataconfig:/etc/netdata
       - netdatalib:/var/lib/netdata
-      - netdatalib:/var/lib/netdata
-      - netdatalib:/var/lib/netdata
       - /etc/passwd:/host/etc/passwd:ro
       - /etc/group:/host/etc/group:ro
       - /proc:/host/proc:ro
